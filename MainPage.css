@@ -1,0 +1,30 @@
+.search-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-input input {
+    margin-right: 1rem;
+    flex: 1;
+}
+
+.selected-players, .team-list {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.player-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 1rem 0;
+}
+
+.player-list-item:last-child {
+    border-bottom: none;
+}

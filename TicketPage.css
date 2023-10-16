@@ -1,0 +1,44 @@
+.ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.player-points {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+.target-achieved {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    margin-right: 1rem;
+}
+
+.target-missing {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    margin-right: 1rem;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions button {
+    margin-right: 1rem;
+}
+
+.actions button:last-child {
+    margin-right: 0;
+}
